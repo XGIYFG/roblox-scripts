@@ -1,3 +1,1 @@
-local encoded_b = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1Nmay85OTQvRGYvcmVmcy9oZWFkcy9tYWluL0IubHVh"
-local real_b_url = game:GetService("HttpService"):Base64Decode(encoded_b)
-loadstring(game:HttpGet(real_b_url))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sfk994/Df/refs/heads/main/B.lua"))()
